@@ -1,0 +1,20 @@
+Principais Comandos Para Manipular Repositórios E Arquivos No Git Bash:
+
+Criar uma pasta: mkdir
+Iniciar o repositório: git init
+Retroceder repositório: cd ..
+Navegar entre pastas: cd 
+Verificar o status do repositório: git status
+Direcionar para um pasta: rmdir
+Listar: ls
+Mostrar o caminho completo da pasta: pwd
+Acessar uma pasta oculta: ls -a
+Mover um arquivo: mv "nome do arquivo ./nome da pasta/"
+Modificar o estado do arquivo para staged: git add "nome do arquivo nome da pasta/"
+Fazer o commit: git commit -m "descrição da ação"
+Adicionar uma nova pasta (todos os arquivos) ao controle de versão: git add .
+Adicionar tudo o que foi modificado e adicionar para o staged para poder commitar: git add *
+Empurrar o novo repositório local para o repositório remoto: git remote add origin https:github... Depois: git remote -v ; Depois: git psuh origin master
+
+
+
